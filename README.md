@@ -20,14 +20,14 @@
 
 ## 📁 项目结构
 
-\`\`\`
+```
 src/
 ├── algorithms/        # 各算法核心逻辑（迷宫生成、DFS、BFS、Dijkstra 等）
 ├── components/        # 通用组件（PageLayout、ControlPanel、InfoPanel、Icons）
 ├── pages/             # 五大算法页面（MazePage、ExpressionPage 等）
 ├── App.tsx            # 主路由与卡片式主页
 └── main.tsx           # 入口文件
-\`\`\`
+```
 
 ## 🚀 本地运行
 
