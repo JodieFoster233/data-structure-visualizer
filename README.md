@@ -55,7 +55,6 @@ npm run dev
 npm run build
 npm run preview   # 预览生产构建
 
----
 
 
 ```
@@ -72,7 +71,7 @@ npm run preview   # 预览生产构建
 
 ## 📸 截图
 
->（可在该位置放置主页及各算法页面的运行截图）
+
 ## 📄 License
 
 >仅供学习交流使用。
