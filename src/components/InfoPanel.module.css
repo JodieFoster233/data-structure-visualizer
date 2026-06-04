@@ -1,0 +1,138 @@
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.panelTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent-green);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sectionTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-purple);
+}
+
+.stepText {
+  font-size: 13px;
+  color: var(--text-primary);
+  line-height: 1.8;
+  background: var(--bg-secondary);
+  padding: 10px 14px;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-cyan);
+}
+
+.dataDisplay {
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-primary);
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-height: 200px;
+  overflow-y: auto;
+  line-height: 1.7;
+}
+
+.complexityBox {
+  background: linear-gradient(135deg, rgba(179, 136, 255, 0.1), rgba(0, 229, 255, 0.05));
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.complexityRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  font-size: 12px;
+}
+
+.complexityLabel {
+  color: var(--text-secondary);
+}
+
+.complexityValue {
+  color: var(--accent-cyan);
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+.tableWrapper {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.table th,
+.table td {
+  padding: 6px 8px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.table th {
+  background: var(--bg-card);
+  color: var(--accent-purple);
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.table td {
+  color: var(--text-primary);
+}
+
+.highlightRow {
+  background: rgba(0, 229, 255, 0.1);
+}
+
+.highlightCell {
+  color: var(--accent-cyan);
+  font-weight: 700;
+}
+
+.badgeList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--accent-green);
+}

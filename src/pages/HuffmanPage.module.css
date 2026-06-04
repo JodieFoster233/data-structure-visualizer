@@ -1,0 +1,38 @@
+.visualization {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.treeContainer {
+  padding: 20px;
+}
+
+.leafClickable {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.leafClickable:hover {
+  filter: brightness(1.4);
+}
+
+.leafHighlight {
+  filter: drop-shadow(0 0 8px rgba(0, 229, 255, 0.8));
+}
+
+.leafNormal {
+  transition: all 0.3s;
+}
+
+.nodeEnter {
+  animation: nodeEnterAnim 0.5s ease;
+}
+
+@keyframes nodeEnterAnim {
+  from { opacity: 0; transform: scale(0); }
+  to { opacity: 1; transform: scale(1); }
+}
